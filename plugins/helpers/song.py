@@ -6,7 +6,7 @@ import aiohttp
 import asyncio
 import math
 import time
-
+import yt_dlp
 import wget
 import aiofiles
 
