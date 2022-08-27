@@ -28,3 +28,4 @@ PyPDF2
 ujson
 pyshorteners
 countryinfo
+yt-dlp
