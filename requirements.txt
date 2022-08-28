@@ -28,4 +28,5 @@ PyPDF2
 ujson
 pyshorteners
 countryinfo
+beautifulsoup4
 
