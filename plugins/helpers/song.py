@@ -23,7 +23,7 @@ import requests
 
 @Client.on_message(filters.command(["video", "mp4"]))
 async def vsong(client, message: Message):
-    urlissed = get_text(message)
+    urlissed = gettext(message)
 
     pablo = await client.send_message(
         message.chat.id, f"**𝙵𝙸𝙽𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚅𝙸𝙳𝙴𝙾** `{urlissed}`"
