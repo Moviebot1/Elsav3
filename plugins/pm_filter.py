@@ -1165,8 +1165,12 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("𝙸 𝙲𝙾𝚄𝙻𝙳𝙽'𝚃 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝚁𝙴𝙻𝙰𝚃𝙴𝙳 𝚃𝙾 𝚃𝙷𝙰𝚃\n𝙳𝙸𝙳 𝚈𝙾𝚄 𝙼𝙴𝙰𝙽 𝙰𝙽𝚈 𝙾𝙽𝙴 𝙾𝙵 𝚃𝙷𝙴𝚂𝙴?",
-                    reply_markup=InlineKeyboardMarkup(btn))
+    spell_del=await msg.reply_text(
+        text="𝙸 𝙲𝙾𝚄𝙻𝙳𝙽'𝚃 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝚁𝙴𝙻𝙰𝚃𝙴𝙳 𝚃𝙾 𝚃𝙷𝙰𝚃\n𝙳𝙸𝙳 𝚈𝙾𝚄 𝙼𝙴𝙰𝙽 𝙰𝙽𝚈 𝙾𝙽𝙴 𝙾𝙵 𝚃𝙷𝙴𝚂𝙴?",
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await asyncio.sleep(600)
+    await spell_del.delete()
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
