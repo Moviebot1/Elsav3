@@ -87,7 +87,9 @@ these are the extra features of Elsa
 ⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-@ᴄᴄᴏᴍ_ᴛᴇᴀᴍ"""
+@ᴄᴄᴏᴍ_ᴛᴇᴀᴍ
+
+This feature will be stoped.Bcoz music bot is banned in railway"""
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 • 𝘜𝘴𝘢𝘨𝘦
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
@@ -95,7 +97,9 @@ these are the extra features of Elsa
 • 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/example...)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
 <code>/mp4 https://youtu.be/example...</code>
-<code>/video https://youtu.be/example...</code>"""
+<code>/video https://youtu.be/example...</code>
+
+This feature will be stoped.Bcoz music bot is banned in railway"""
     TTS_TXT = """Help: <b> TTS 🎤 module:</b>
 Translate text to speech
 <b>Commands and Usage:</b>
