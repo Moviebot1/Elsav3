@@ -975,7 +975,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Piracy Is Crime')
+    await query.answer('¢ιηємαℓα.¢σм')
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -1170,6 +1170,7 @@ async def advantage_spell_chok(msg):
     )
     await asyncio.sleep(600)
     await spell_del.delete()
+    return
 
 
 async def manual_filters(client, message, text=False):
